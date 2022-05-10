@@ -1,921 +1,114 @@
-<form method="post" enctype="multipart/form-data" action="https://ms.copernica.com/?webform=1" name="webform_1"><div class="webform" id="webform_1"><div class="field even " id="field_c779cbe968c3671e105eefaf99a38282" style="display: block;"><div class="label">Voornaam<div class="colon">:</div></div><div class="data"><input class="text" type="text" id="c779cbe968c3671e105eefaf99a38282" name="c779cbe968c3671e105eefaf99a38282" value="" maxlength="50" placeholder=""></div></div><div class="field odd " id="field_23881fc9389fbc1ee0792afd39f2f4dc" style="display: block;"><div class="label">E-mailadres<div class="colon">:</div><div class="required">*</div></div><div class="data"><input class="text" type="text" id="23881fc9389fbc1ee0792afd39f2f4dc" name="23881fc9389fbc1ee0792afd39f2f4dc" value="" maxlength="50" placeholder=""></div></div><div class="field even " id="field_2c144156734a360ce4f0c23316f87ff0" style="display: none;"><div class="label">Campagne<div class="colon">:</div></div><div class="data"><input class="hidden" type="hidden" id="2c144156734a360ce4f0c23316f87ff0" name="2c144156734a360ce4f0c23316f87ff0" value="BBQ2022"></div></div><div class="field odd " id="field_a149fe0dd2b2e5b84980a03bdcec9548" style="display: block;"><div class="label">Nieuwsbrief<div class="colon">:</div></div><div class="data"><div class="checkbox"><label for="a149fe0dd2b2e5b84980a03bdcec9548"><input type="checkbox" name="a149fe0dd2b2e5b84980a03bdcec9548" id="a149fe0dd2b2e5b84980a03bdcec9548" value="Ja, ik schrijf me in voor de nieuwsbrief voor meer wijnnieuws en aanbiedingen.">Ja, ik schrijf me in voor de nieuwsbrief voor meer wijnnieuws en aanbiedingen.</label></div></div></div><div class="button"><input type="submit" value="Verzenden"></div></div>
+<style type="text/css">
+  .webform .field {
+   display: flex!important;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.field .colon {
+  display: none;
+}
+
+.field .label, .field .data {
+  padding: 1.2rem 10px; 
+}
+
+.field .label {
+  width: 20%;
+  font-size: 14pt;
+}
+
+.field .data {
+  width: 80%;
+}
+
+.data input[type=text] {
+  border: 1px solid #b0b7c1;
+  background: #FFF;
+  background-clip: padding-box;
+  border-radius: 50px;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  line-height: 4.4rem;
+  padding: 0 1.2rem;
+  vertical-align: baseline;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.webform #field_2c144156734a360ce4f0c23316f87ff0 {
+  display: none!important;
+}
+
+.webform #field_a149fe0dd2b2e5b84980a03bdcec9548 .label {
+  visibility: hidden;
+}
+
+.data input[type=checkbox] {
+  margin-right: 12px;
+}
+
+label[for=a149fe0dd2b2e5b84980a03bdcec9548] {
+  display: flex;
+  align-items: center;
+}
+
+.webform .button {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 21%;
+}
+
+.webform .button input[type=submit] {
+  background-image: none;
+  background: #598000;
+  border: .3rem solid #598000;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: PT Sans,sans-serif;
+  font-weight: 700;
+  padding: 1rem 2.2rem;
+  text-transform: none;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .webform .button {
+    margin-left: 24%;
+  }
+  .field .label {
+    width: 40%;
+  }
+  .field .data {
+    width: 60%;
+  }
+}
+</style>
+
+<h1><img src="{{media url="Headerbeeld_Landingspagina_1920x300.jpg"}}" alt="lenterecepten met bijpassende wijn"></h1>
+<h1>Download receptenboekje</h1>
+<p style="min-height: 15.0px;"><span style="font-size: 14pt;"> In dit wijn & spijsreceptenboekje vind je inspirerende gerechten voor een feestelijk voorjaarsmenu, samengesteld door chef-kok Mark Captein en sommelier Marjolein van der Ham. Van een lamsgerecht tot aan asperges, inclusief vega tips. Bij alle gerechten staan bijpassende wijnadviezen met de restaurantwijnen van Vinify. <strong>Alle wijnen zijn t/m 15 mei met 20% korting te bestellen. </strong></span></p>
+<p style="min-height: 15.0px;"><span style="font-size: 14pt; color: black;">Download hieronder <em><u>gratis</u></em> het receptenboekje: </span></p>
+<p><span style="font-size: 14pt;"><strong>Vul je gegevens in en ontvang een PDF van het receptenboekje:</strong></span></p>
+<form method="post" enctype="multipart/form-data" action="https://ms.copernica.com/?webform=1" name="webform_1"><div class="webform" id="webform_1"><div class="field even " id="field_c779cbe968c3671e105eefaf99a38282" style="display: block;"><div class="label">Voornaam</div><div class="data"><input class="text" type="text" id="c779cbe968c3671e105eefaf99a38282" name="c779cbe968c3671e105eefaf99a38282" value="" maxlength="50" placeholder=""></div></div><div class="field odd " id="field_23881fc9389fbc1ee0792afd39f2f4dc" style="display: block;"><div class="label">E-mailadres*</div><div class="data"><input class="text" type="text" id="23881fc9389fbc1ee0792afd39f2f4dc" name="23881fc9389fbc1ee0792afd39f2f4dc" value="" maxlength="50" placeholder=""></div></div><div class="field even " id="field_2c144156734a360ce4f0c23316f87ff0" style="display: none;"><div class="label">Campagne<div class="colon">:</div></div><div class="data"><input class="hidden" type="hidden" id="2c144156734a360ce4f0c23316f87ff0" name="2c144156734a360ce4f0c23316f87ff0" value="BBQ2022"></div></div><div class="field odd " id="field_a149fe0dd2b2e5b84980a03bdcec9548" style="display: block;"><div class="label">Nieuwsbrief<div class="colon">:</div></div><div class="data"><div class="checkbox"><label for="a149fe0dd2b2e5b84980a03bdcec9548"><input type="checkbox" name="a149fe0dd2b2e5b84980a03bdcec9548" id="a149fe0dd2b2e5b84980a03bdcec9548" value="Yes">Ja, ik schrijf me in voor de nieuwsbrief voor meer wijnnieuws en aanbiedingen.</label></div></div></div><div class="button"><input type="submit" value="Verzenden"></div></div>
 </form>
 
 <script type="text/javascript">
-
-/**
- *  Script for webforms.
- */
-
-/**
- *  List of error messages
- *  @var array
- */
-var webform_error_messages = {"required_field_missing":"The field '%field' is missing.","email_field_wrong":"The field '%field' does not contain an email address.","number_field_wrong":"The field '%field' does not contain a number.","tel_field_wrong":"The field '%field' does not contain only numeric values, with optional -, + characters.","date_field_wrong":"The field '%field' does not contain a date.","dateselect_field_wrong":"The field '%field' does not contain a valid date.","datetime_field_wrong":"The field '%field' does not contain a datetime.","datetimeselect_field_wrong":"The field '%field' does not contain a valid datetime.","passwords_do_not_match":"The fields '%field' should contain the same password.","uploadfield_field_wrong":"The file in '%field' does not contain the right file type or exceeds the maximum upload size.","captchafield_field_wrong":"Captcha field is wrong. Try again.","text_field_wrong":"The field '%field' is not in the correct format."}
-
-/**
- *  Error checker array. The functions that runs when the form is submitted.
- */
-var webform_error_checkers = new Array();
-
-/**
- *  The current language we are using.
- *  @var String
- */
-var webform_language = "en_US";
-
-/**
- *  This function is called to initialize a webform
- *  @param  string      ID of the webform
- *  @param  fields      The fields in the form
- */
-function initWebform(webformID, fields)
-{
-    // register a handler for the form
-    var formname = 'webform_'+webformID;
-
-    // get a form element
-    var form = document.forms[formname];
-
-    // sometimes we want to find element by it's id
-    var findElementById = function(id) {
-
-        // array that we will use to keep track elements to check
-        var elements = [];
-
-        // we always start from form element
-        elements.push(form);
-
-        // we want to check all elements (and we have at least one on start)
-        do {
-            // get the current element
-            var current = elements.shift();
-
-            // check if we found an element
-            if (current.getAttribute('id') == id) return current;
-
-            // get element childs
-            var children = current.children;
-
-            // push all childrens into elements array
-            for(var i = 0; i < children.length; i++)
-                elements.push(children[i]);
-
-        } while(elements.length > 0);
-
-        // we did not found a desired element
-        return null;
-    }
-
-    // sometimes we want to get elements by names
-    function findElementsByName(name)
-    {
-        // elements to check
-        var elements = [];
-
-        // result to return
-        var results = [];
-
-        // start from form
-        elements.push(form);
-
-        do {
-            // get the current element
-            var current = elements.shift();
-
-            // check if current element have desired name
-            if (current.getAttribute('name') == name) results.push(current);
-
-            // get the children of current element
-            var children = current.children;
-
-            // add all childrens to elemetnts to check
-            for (var i = 0; i < children.length; i++)
-                elements.push(children[i]);
-        } while(elements.length > 0);
-
-        // return results
-        return results;
-    }
-
-    // Add error checkers to specific elements.
-    for (id in fields)
-    {
-        // locate field.
-        var field = fields[id];
-        
-        // locate element
-        var element = findElementById(id);
-
-        // Add a error checker.
-        webform_add_error_checker(element, field);
-        
-        // if we have a regex, add a checker
-        if (field.regex) webform_add_regex_checker(element, field);
-    }
-    
-    // does this webform has a captcha?
-    var hasCaptcha = document.getElementById('recaptcha') != null;
-    
-    // process the form
-    var doProcessForm = function(event) {
-        // array of encountered errors
-        var errors = [];
-
-        // Loop trough the fields and attach input checks.
-        for (id in fields)
-        {
-            // leap out if we already discovered too many errors
-            if (errors.length >= 4) break;
-
-            // Locate field.
-            var field = fields[id];
-            var value = false;
-            var element = findElementById(id);
-
-            // Value of dropdown.
-            if (field.type == "dropdown")
-            {
-                var selectIndex = element.selectedIndex;
-                value = element.options[selectIndex].text;
-            }
-            else if (field.type == "password_repeat")
-            {
-                // matching field
-                if (document.getElementById(element.id).value != findElementById(id+'_repeat').value)
-                {
-                    // an error was detected
-                    errors.push(get_webform_error_message('passwords_do_not_match', {field: field.label}));
-
-                    // continue to the next field.
-                    continue;
-                }
-
-                value = document.getElementById(element.id).value;
-            }
-            else if (field.type == "interest")
-            {
-                // Value for the interest field
-                value = element.checked;
-            }
-            else if (field.type == "uploadfield")
-            {
-                // Value for the uploadfield.
-                value = document.getElementById(element.id).value;
-            }
-            else if (field.type == "radio_buttons")
-            {
-                // for radio buttons we need to get the (inputs) options by name because the inputs have an id of id_x
-                var options = findElementsByName(id);
-                for (var i=0; i < options.length; i++)
-                {
-                    if (!options[i].checked) continue;
-
-                    value = options[i].value;
-                }
-            }
-            else if (field.type == "checkbox")
-            {
-                if (element.checked)
-                {
-                    value = document.getElementById(element.id).value
-                }
-                else
-                {
-                    value = '';
-                }
-            }
-            else
-            {
-                // Value of all other inputs.
-                value = document.getElementById(element.id).value;
-            }
-
-            // Is case sensitive/strict mode enabled for this field?
-            if (field.casesensitive)
-            {
-                // Trim the value for text fields
-                value = webform_trim_value(document.getElementById(element.id).value);
-            }
-
-            // check if this field is required and not filled in
-            if (field.required && !value)
-            {
-                // an error was detected
-                errors.push(get_webform_error_message('required_field_missing', {field: field.label}));
-
-                // continue to the next field.
-                continue;
-            }
-
-            // check if there is a error checker waiting.
-            var checker = webform_error_checkers[id];
-
-            // Check if the checker is something and run it, when true returns there is nothing wrong.
-            if (checker && !checker())
-            {
-                errors.push(get_webform_error_message(field.type+'_field_wrong', {field: field.label}));
-            }
-        }
-
-        // ok if no errors were found
-        if (errors.length == 0)
-        {
-            // convert any date fields to the english date format.
-            for (id in fields)
-            {
-                // Locate field.
-                var field = fields[id];
-                if (field.type != "date") continue;
-
-                // get the element
-                var element = findElementById(id);
-
-                // Convert the date format.
-                document.getElementById(element.id).value = webform_convert_date(document.getElementById(element.id).value, webform_language);
-            }
-            return true;
-        }
-
-        // generate error message
-        var message = '';
-        for (var i=0; i<errors.length; i++)
-        {
-            // append to message
-            message += errors[i]+"\n";
-        }
-
-        // show error message
-        var popAlert = window.alert;
-        popAlert(message);
-        if(hasCaptcha) grecaptcha.reset();
-
-        // cancel submit
-        if (event) 
-        {
-            event.returnValue = false;
-            event.preventDefault();
-        }
-        return false;
-    };
-    
-    // handle the onsubmit event, store the event in a variable to pass it to other functions later
-    document.forms[formname].onsubmit = function(event)
-    {
-        // if captcha is enabled, check captcha first.
-        // check if there is a grecaptcha response
-        if (hasCaptcha && grecaptcha.getResponse() == "") window.alert(get_webform_error_message('captchafield_field_wrong'));
-        
-        // process the form
-        return doProcessForm(event);
-    }
-}
-
-/**
- *  Function to get an error message
- *  @param  string  Identifier of the error
- *  @param  array   Associative array of variables that need to be filled in
- */
-function get_webform_error_message(identifier, vars)
-{
-    var popAlert = window.alert;
-    var string = webform_error_messages[identifier];
-    if (string == undefined) popAlert(identifier);
-    for (var name in vars) string = string.replace('%'+name, vars[name]);
-    return string;
-}
-
-/**
- *  Add's input control functionality to the user input.
- *  @param html object
- *  @param field object
- */
-function webform_add_error_checker(element, field)
-{
-    switch (field.type)
-    {
-        case "text":
-
-            break;
-        case "password":
-
-            break;
-        case "email":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_email_check(element);
-            };
-            break;
-        case "tel":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_phone_check(element);
-            };
-            break;
-        case "number":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && !document.getElementById(element.id).value.length) return true;
-                return webform_number_check(element);
-            };
-            break;
-            
-        case "date":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_date_check(element);
-            }
-
-            // Change the date from yyyy-mm-dd to the date of the current language.
-            document.getElementById(element.id).value = webform_convert_date(document.getElementById(element.id).value, webform_language);
-            break;
-
-         case "dateselect":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_dateselect_check(element);
-            }
-            break;
-            
-        case "datetime":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_datetime_check(element);
-            }
-            break;
-
-         case "datetimeselect":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_datetimeselect_check(element);
-            }
-            break;
-
-        case "uploadfield":
-            webform_error_checkers[element.id] = function()
-            {
-                // not required and empty?
-                if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-                return webform_upload_check(element, field);
-            }
-            break;
-    }
-}
-
-/**
- *  This function adds a checker function to an element to see if the value
- *  matches the given regex. This check needs to happen alongside any other
- *  checks that are defined for the element, so if a checker already exists
- *  this function will use that existing check to build a composite checker
- *  function and append the combined checker to the webform element. 
- *  @param html object
- *  @param field object
- */
-function webform_add_regex_checker(element, field)
-{
-    // store the new checker in a variable
-    var new_checker = function()
-    {
-        // not required and empty?
-        if (!field.required && document.getElementById(element.id).value.trim() == "") return true;
-        
-        // get the value
-        var value = document.getElementById(element.id).value;
-        
-        // the value cannot be longer than 100 chars to keep regex functionality safe
-        if (value.length >= 100) return false;
-        
-        // store the raw regex of the field
-        var raw_regex = field.regex;
-        
-        // check if the full regex was delivered instead of a regex pattern
-        if (raw_regex.charAt(0) == '/' && raw_regex.lastIndexOf('/') != 0)
-        {
-            // get the pattern of the regex (between the first and last delimiter)
-            var pattern = raw_regex.slice(1,raw_regex.lastIndexOf("/"));
-            
-            // get the flags 
-            var flags = raw_regex.slice(raw_regex.lastIndexOf("/") + 1);
-            
-            // construct the regex object with the flag
-            var regex = new RegExp(pattern, flags);
-        }
-        
-        // we only have a pattern
-        else
-        {
-            // construct the regex object with the pattern
-            var regex = new RegExp(raw_regex);
-        }
-        
-        // get the matches between the regex and the field value
-        var match = value.match(regex);
-        
-        // check if the value matches the field regex
-        return match != null && value == match[0];
-    }
-    
-    // check if we already have a checker for this element
-    if (element.id in webform_error_checkers)
-    {
-         // if this is the case, store the old checker in a variable
-         var old_checker = webform_error_checkers[element.id];
-         
-         // combine the two
-         var comb_checker = function() { return old_checker() && new_checker(); }
-         
-         // store the combined checker
-        webform_error_checkers[element.id] = comb_checker;
-    }
-    else
-    {
-        // we have no checker yet, store the new one
-        webform_error_checkers[element.id] = new_checker;
-    }
-}
-
-/**
- *  This function checks if an element value is an email.
- *  @param element
- *  @return boolean
- */
-function webform_email_check(element)
-{
-    var value = document.getElementById(element.id).value;
-    return value.match(/^[a-zA-Z0-9_*]+([+._\-][_*a-zA-Z0-9]+)*[-]*@[a-zA-Z0-9]+([._\-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,10}$/);
-}
-
-/**
- *  This function checks if a element value is a phone number
- *  @param element
- *  @return boolean
- */
-function webform_phone_check(element)
-{
-    
-    var value = document.getElementById(element.id).value;
-    return value.match(/^([0-9\-()\/\+\.\s])+$/);
-}
-
-/**
- *  This function checks if a element value is a number.
- *  @param element
- *  @return boolean
- */
-function webform_number_check(element)
-{
-    var value = document.getElementById(element.id).value;
-    return value.match(/(^\d+$)|^$/);
-}
-
-/**
- *  This function checks if an element value is a date.
- *  @param element
- *  @return boolean
- */
-function webform_date_check(element)
-{
-    var value = document.getElementById(element.id).value;
-
-    // When a field is empty, the answer is always true.
-    if (value == "") return true;
-
-    switch (webform_language)
-    {
-        case "english":
-            return value.match(/^((19|20)\d\d)[- /.](0[0-9]|1[012]|[0-9])[- /.]([1-9]|[012][0-9]|3[01])$/);
-            break;
-        default:
-            // The rest, dutch, german, italian, russian, greece, etc are using the europian dd-mm-yyyy style.
-            return value.match(/^([1-9]|[012][0-9]|3[01])[- /.](0[0-9]|1[012]|[0-9])[- /.]((19|20)\d\d)$/);
-            break;
-    }
-}
-
-/**
- *  This function checks if an element value is a time.
- *  !!! The format used here is the official SQLite datetime, this is so that it can be stored in a datetime row
- *  @param element
- *  @return boolean
- */
-function webform_datetime_check(element)
-{
-    var value = document.getElementById(element.id).value;
-
-    // When a field is empty, the answer is always true.
-    if (value == "") return true;
-
-    // the following regex is very strict because the entered string MUST fit the SQL datetime format in order to be accepted by a database
-    return value.match(/^((19|20)\d\d)-(0[0-9]|1[012]|[0-9])-([1-9]|[012][0-9]|3[01]) ([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/);
-}
-
-/**
- *  This function checks if a date select value is a date.
- *  @param element
- *  @return boolean
- */
-function webform_dateselect_check(element)
-{
-    var value = document.getElementById(element.id).value;
-
-    var year = document.getElementById(element.id+'_year').value;
-    var month = document.getElementById(element.id+'_month').value;
-    var day = document.getElementById(element.id+'_day').value;
-
-    if ((month == 2 || month == 4 || month == 6 || month == 9 || month == 11) && day == 31)
-        return false;
-    else if (month == 2 && day == 30 && year != 8228) // extra leap year
-        return false;
-    else if (month == 2 && day == 29 && year != 8228)
-        return (new Date(year, 1, 29).getDate() == 29); // months start counting at zero
-    else
-        return true;
-}
-
-/**
- *  This function checks if a time select value is a time.
- *  @param element
- *  @return boolean
- */
-function webform_datetimeselect_check(element)
-{
-    var value = document.getElementById(element.id).value;
-
-    // use the date checker to validate years and months
-    if (!webform_dateselect_check(element)) return false;
-
-    var hour   = document.getElementById(element.id+'_hour').value;
-    var minute = document.getElementById(element.id+'_minute').value;
-
-    if (hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59) return true;
-    
-    return false;
-}
-
-/**
- *  This function checks if the uploaded file is correct.
- *  @param element
- *  @return  boolean
- */
-function webform_upload_check(element, field)
-{
-    var uploadElement = document.getElementById(element.id);
-    var value = uploadElement.value;
-
-    // When a field is empty, the answer is always true.
-    if (value == "") return true;
-
-    // Generate file extensions based on the mimetypes.
-    var extensions = new Array();
-    for (var i=0; i < field.mimetypes.length; i++)
-    {
-        var mimetype = field.mimetypes[i];
-
-        var pre = mimetype.split('/')[0];
-        var post = mimetype.split('/')[1];
-
-        // Find the appriopate extension for this mimetype.
-        if (pre == "image")
-        {
-            extensions.push(post);
-        }
-        else if (pre == "application")
-        {
-            if (post.match("excel"))
-            {
-                extensions.push('xls');
-                extensions.push('xlsx');
-            }
-            else if (post.match("word"))
-            {
-                extensions.push('doc');
-                extensions.push('docx');
-            }
-            else if (post.match("pdf"))
-                extensions.push("pdf");
-            else if (post.match("zip"))
-                extensions.push("zip");
-        }
-    }
-
-    // Extract the extension of the file.
-    var ext = value.slice(value.lastIndexOf('.')+1).toLowerCase();
-
-    // Are we limited to extensions?
-    if (extensions.length > 0)
-    {
-        // See if we can find the extension.
-        var found = false;
-        for (var i = 0; i < extensions.length; i++)
-        {
-            if (extensions[i] == ext) found = true;
-        }
-
-        // Our extension isn't found, throw a error.
-        if (!found) return false;
-    }
-    
-    // check the max upload size
-    if (field.maxsize)
-    {
-        // calculate the byte size the max size in kilobytes
-        var maxBytes = field.maxsize * 1024;
-        
-        // do we exceed the maximum upload size?
-        if (uploadElement.files.length > 0 && uploadElement.files[0].size > maxBytes) return false
-    }
-
-    // The file is correct.
-    return true;
-}
-
-/**
- *  Change the format of the date from  or to yyyy-mm-dd.
- *  Use the to parameter to select the date format destination.
- *  @param string
- *  @param string
- *  @return string
- */
-function webform_convert_date(date, to)
-{
-    // If there is no date provided, then there is nothing to do.
-    if (date == "") return "";
-
-    // The use regular expressions.
-    var english = /^((19|20)\d\d)([- /.])(0[0-9]|1[012]|[0-9])[- /.]([1-9]|[012][0-9]|3[01])(\s+[012]?[0-9]:[0-5]?[0-9])?$/;
-    var europe = /^([1-9]|[012][0-9]|3[01])([- /.])(0[0-9]|1[012]|[0-9])[- /.]((19|20)\d\d)(\s+[012]?[0-9]:[0-5]?[0-9])?$/;
-
-    // The working variables.
-    var matches = false;
-    var year = 0;
-    var month = 0;
-    var day = 0;
-    var separator = "-";
-
-    // Is the source in europian style? DD-MM-YY
-    if (matches = date.match(europe))
-    {
-        year = matches[4];
-        separator = matches[2];
-        month = matches[3];
-        day = matches[1];
-    }
-    else if(matches = date.match(english))
-    {
-        year = matches[1];
-        separator = matches[3];
-        month = matches[4];
-        day = matches[5];
-    }
-
-    switch (to)
-    {
-        case "english":
-            return year+separator+month+separator+day;
-        default:
-            return day+separator+month+separator+year;
-    }
-}
-
-/**
- *  Save the selected date to the hidden field.
- *  @param string
- *  @return string
- */
-function recalculateDate(identifier)
-{
-    var separator = "-";
-
-    // calculate the year
-    var yearEl = document.getElementById(identifier+'_year');
-    var selectIndex = yearEl.selectedIndex;
-    var year = yearEl.options[selectIndex].text;
-
-    // calculate the month
-    var monthEl = document.getElementById(identifier+'_month');
-    var selectIndex = monthEl.selectedIndex;
-    var month = monthEl.options[selectIndex].text;
-
-    // calculate the day
-    var dayEl = document.getElementById(identifier+'_day');
-    var selectIndex = dayEl.selectedIndex;
-    var day = dayEl.options[selectIndex].text;
-
-    // concat the date
-    document.getElementById(identifier).value = year+separator+month+separator+day;
-}
-
-/**
- *  Save the selected Time to the hidden field
- *  @param string
- *  @return string
- */
-function recalculateDateTime(identifier)
-{
-    // calculate the year
-    var yearEl = document.getElementById(identifier+'_year');
-    var selectIndex = yearEl.selectedIndex;
-    var year = yearEl.options[selectIndex].text;
-
-    // calculate the month
-    var monthEl = document.getElementById(identifier+'_month');
-    var selectIndex = monthEl.selectedIndex;
-    var month = monthEl.options[selectIndex].text;
-
-    // calculate the day
-    var dayEl = document.getElementById(identifier+'_day');
-    var selectIndex = dayEl.selectedIndex;
-    var day = dayEl.options[selectIndex].text;
-
-    // calculate the hour
-    var hourEl = document.getElementById(identifier+'_hour');
-    var selectedIndex = hourEl.selectedIndex;
-    var hour = hourEl.options[selectedIndex].text;
-
-    // calculate the minute
-    var minuteEl = document.getElementById(identifier+'_minute');
-    var selectedIndex = minuteEl.selectedIndex;
-    var minute = minuteEl.options[selectedIndex].text;
-
-    // concat the datetime, add ':00' at the end in order to fit the SQL datetime format
-    document.getElementById(identifier).value = year + "-" + month + "-" + day + " " + hour + ":" + minute + ":00";
-}
-
-/**
- *  Remove the whitespace left and right from the value.
- *  @param string to trim
- *  @return string
- */
-function webform_trim_value(value)
-{
-    // First replace the whitespace on the left and right with nothing.
-    return value.replace(/^\s+/g,'').replace(/\s+$/g, '');
-}
+  // initialize the webform
+  initWebform("1", {"c779cbe968c3671e105eefaf99a38282":{"key":false,"required":false,"field":"MFirstName","label":"Voornaam","type":"text","casesensitive":false,"regex":""},"23881fc9389fbc1ee0792afd39f2f4dc":{"key":true,"required":true,"field":"MEmail","label":"E-mailadres","type":"email","casesensitive":false,"regex":""},"2c144156734a360ce4f0c23316f87ff0":{"key":false,"required":false,"field":"CReceptenboek","label":"Campagne","type":"hidden","casesensitive":false,"regex":""},"a149fe0dd2b2e5b84980a03bdcec9548":{"key":false,"required":false,"field":"MNewsletter","label":"Nieuwsbrief","type":"checkbox","casesensitive":false,"regex":""}});
 </script>
-
-<script type="text/javascript">
-
-// initialize the webform
-initWebform("1", {"c779cbe968c3671e105eefaf99a38282":{"key":false,"required":false,"field":"MFirstName","label":"Voornaam","type":"text","casesensitive":false,"regex":""},"23881fc9389fbc1ee0792afd39f2f4dc":{"key":true,"required":true,"field":"MEmail","label":"E-mailadres","type":"email","casesensitive":true,"regex":""},"2c144156734a360ce4f0c23316f87ff0":{"key":false,"required":false,"field":"CReceptenboek","label":"Campagne","type":"hidden","casesensitive":false,"regex":""},"a149fe0dd2b2e5b84980a03bdcec9548":{"key":false,"required":false,"field":"MNewsletter","label":"Nieuwsbrief","type":"checkbox","casesensitive":false,"regex":""}});
-
-</script>
-
-<script type="text/javascript">var clickHandler = function() {
-    /**
-     *  Attach an event handler to an event, crossbrowser
-     *  @param  HtmlDomElement  element
-     *  @param  string          event to listen to
-     *  @param  function        function to execute
-     */
-    var addEvent = function(element, name, func)
-    {
-        // this might be a browser or could be IE
-        if (window.addEventListener || document.addEventListener) element.addEventListener(name, func, true);
-        else if (window.attachEvent) element.attachEvent('on'+name, func);
-    }
-
-    /**
-     *  Initialize the click registration system
-     */
-    var initialize = function()
-    {
-        // Get all aTags
-        var aTags = document.getElementsByTagName('a');
-
-        // regex to test for valid hyperlink
-        var protocol = new RegExp('^https?:\\/\\/');
-
-        // get the length
-        var length = aTags.length;
-        
-        // and attach a handler to each of them
-        for (var i = 0; i < length; i++) 
-        {
-            // Get the tag
-            var tag = aTags.item(i);
-            
-            // does this tag have a valid hyperlink
-            if (!tag.href || tag.href.length == 0) continue;
-
-            // is it a http:// or https:// link
-            if (!protocol.test(tag.href)) continue;
-            
-            // everything is fine register the event
-            addEvent(tag, 'mouseout', restoreHref);
-            addEvent(tag, 'mousedown', registerClick);
-        }
-    }
-
-    /**
-     *  Check if a link is a local anchor
-     *  @param  string  the url to check
-     *  @return boolean is the url local
-     */
-    var isLocalAnchor = function(url)
-    {
-        // location of anchor sign in string
-        var anchor;
-
-        // locate the anchor sign in the url
-        if ((anchor = url.indexOf('#')) == -1) return false;
-
-        // strip the anchor part
-        url = url.substring(0, anchor);
-
-        if ((anchor = window.location.href.indexOf('#')) == -1) return url = window.location.href;
-        else return url = window.location.href.substring(0, anchor);
-    }
-
-    /**
-     *  Register a click on a hyperlink
-     *  @param  HtmlEvent   event object
-     */
-    var registerClick = function(event)
-    {
-        // get the target
-        var linkElement = typeof event.currentTarget == 'object' ? event.currentTarget : event.srcElement;
-
-        // Get the body tag for later comparison
-        var body = document.getElementsByTagName('body').item(0);
-        
-        // Make sure we have the right element
-        while (linkElement.nodeName.toLowerCase() != 'a')
-        {
-            // get the parent node
-            linkElement = linkElement.parentNode;
-            
-            // is this the body, then return
-            if (linkElement === body) return;
-        }
-        
-        // if the target is local, don't mess with it
-        if (isLocalAnchor(linkElement.href)) return;
-
-        // prevent default action from being executed
-        if (typeof event.preventDefault == 'function') event.preventDefault();
-        else event.returnValue = false;
-
-        // get the link identifier and original url
-        var linkID = encodeURIComponent(linkElement.rev ? linkElement.rev : linkElement.href);
-        var original = encodeURIComponent(linkElement.href);
-        
-        // construct the url
-        var url = '?registerClick='+linkID+'&document='+documentIdentifier+'&url='+original;
-        
-        // store the original href
-        linkElement.oldHref = linkElement.href;
-        
-        // set the new href
-        linkElement.href = url;
-    }
-    
-    /**
-     *  Restore the original href of a hyperlink
-     *  @param  HtmlEvent   event object
-     */
-    var restoreHref = function(event)
-    {
-        // get the target
-        var linkElement = typeof event.currentTarget == 'object' ? event.currentTarget : event.srcElement;
-        
-        // Get the body tag for later comparison
-        var body = document.getElementsByTagName('body').item(0);
-        
-        // Make sure we have the right element
-        while (linkElement.nodeName.toLowerCase() != 'a')
-        {
-            // get the parent node
-            linkElement = linkElement.parentNode;
-            
-            // is this the body, then return
-            if (linkElement === body) return;
-        }
-        
-        // check if the oldhref exists
-        if (typeof linkElement.oldHref == 'undefined') return;
-        
-        // reset the oldhref
-        linkElement.href = linkElement.oldHref;
-    }
-
-    /**
-     * Initialize the clickHandler
-     */
-    initialize();
-}();
- var documentIdentifier = "1";</script>
-
  
+<p><span style="font-size: 12.0pt; color: black;">In het volgende scherm download je direct het receptenboekje in PDF. Het receptenboekje ontvang je ook per mail.</span></p>
+<p><span style="font-size: 14pt;">{{widget type="Experius\ContentBlock\Block\Content\Widget\Block" identifier="preview-banner-duplicate-7917"}}</span></p>
