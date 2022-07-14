@@ -87,7 +87,6 @@ h3 {
 .footer-advice-container {
   display: flex;
   flex-wrap: no-wrap;
-
 }
 
 .footer-advice-element {
@@ -125,4 +124,64 @@ h3 {
 
 .footer-social-icon {
   margin-left: 8px;
+}
+
+
+@media (max-width: 992px) {
+  .footer-advice-container {
+    flex-wrap: wrap;
+  }
+  .footer-advice-element {
+    flex: 1 1 50%;
+  }
+  .footer-advice-element:last-child {
+    text-align: left;
+    margin-top: 24px;
+  }
+  .footer-social {
+    justify-content: flex-start;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1.4rem 2.4rem;
+  }
+  .logo {
+    width: 140px;
+  }
+  .title-container {
+    padding: 1.6rem 2.4rem;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .main-content-container, .footer-content-container {
+    padding: 0 24px;
+  }
+  .footer {
+    padding: 48px 0;
+  }
+  .footer-title {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+  .footer-advice-element {
+    flex: 1 1 100%;
+    margin-top: 24px;
+  }
+  .footer-advice-title, .footer-advice-content {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .footer-advice-content {
+    color: hsla(0,0%,100%,.56)
+  }
 }
