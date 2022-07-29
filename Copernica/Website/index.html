@@ -32,19 +32,28 @@
 
     <main class="main">
 
+      [loop name="page-title" min="0"]
       <div class="title-container">
-        <h1>Nieuwsbrief voorkeuren</h1>
+        <h1>[text name="title" editor="poor"]</h1>
       </div>
+      [/loop]
 
       <div class="container main-content-container">
         <div class="row">
+          [loop name="intro" min="0"]
           <div class="intro-container">
             <h2 class="intro-title">
-              Welkom bij Vinify
+              [text name="intro-title" editor="poor"]
             </h2>
             <p class="intro-text">
-              Alleen aanbiedingen en nieuws die bij jouw wijnvoorkeuren passen ontvangen? Dan hebben wij iets meer informatie van jou nodig. <br>Vul hieronder jouw voorkeuren in zodat jij alleen gepersonaliseerde acties ontvangt.
+              [text name="intro-text" editor="poor"]
             </p>
+          </div>
+          [/loop]
+          <div class="form-container">
+            [loop name="form" min="0"]
+              [text name="form" editor="poor"]
+            [/loop]
           </div>
         </div>
       </div>
